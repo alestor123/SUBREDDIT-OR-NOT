@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a simple code for checking wether url is a subreddit or not",
   "main": "App.js",
+  "bin": {
+    "subreddit-or-not": "cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
